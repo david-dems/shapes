@@ -13,6 +13,6 @@ include_directories(${X11_INCLUDE_DIR})
 
 add_executable(${PROJECT_NAME} "")
 add_subdirectory(./src)
-add_subdirectory(./SFML)
+add_subdirectory(./SFML ./SFML/cmake_build)
 
 
